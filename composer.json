@@ -1,10 +1,18 @@
 {
-    "name": "work/my-p",
+    "name": "bezginova_dev/message",
+    "homepage": "https://github.com/OlgaBezginova/message",
     "authors": [
         {
             "name": "OlgaBezginova",
             "email": "bezginova.olga@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BezginovaDev\\Message\\": "src/"
+        }
+    }
 }
